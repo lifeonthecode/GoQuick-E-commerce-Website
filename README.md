@@ -2,7 +2,7 @@
 <h1>Welcome this is my project for visited. That is project name GoQuick E-commerce App.</h1>
 </br>
 </br>
-<h2>This project auto layout and full responsive.</h2>
+
 </br>
 </br>
 <h3>We are used this project. react slider, UX/UI designed Tailwind css. so This project is modern app</h3>
