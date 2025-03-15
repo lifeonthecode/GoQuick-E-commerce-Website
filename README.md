@@ -1,5 +1,5 @@
 
-<h1>Welcome this is my project for visited. That is project name Comforty E-commerce App.</h1>
+<h1>Welcome this is my project for visited. That is project name GoQuick E-commerce App.</h1>
 </br>
 </br>
 <h2>This project auto layout and full responsive.</h2>
