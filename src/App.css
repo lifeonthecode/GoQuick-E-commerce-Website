@@ -1,0 +1,75 @@
+
+/* tailwind css import  */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* google font inter  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* @theme {
+    --font-font-family: "Inter", sans-serif;
+} */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* header is sticky  */
+.header_component {
+    position: fixed;
+    top: 0rem;
+    left:0rem;
+    width: 100%;
+    height: auto;
+    z-index: 50;
+    background-color: white;
+}
+
+.header_component.is-sticky {
+    animation: scroll .7s ease-in;
+    border-bottom: 1px solid #05a845 ;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateY(-110%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+
+/* banner section  */
+.banner_container {
+    background-image: url('/src/assets/banner/banner_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* about slider  */
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 0px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 8px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #e2e6ea !important;
+    border-radius: 1rem !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #05a845 !important;
+}
