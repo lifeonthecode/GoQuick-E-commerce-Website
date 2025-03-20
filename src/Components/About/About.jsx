@@ -20,19 +20,19 @@ const About = () => {
             description: 'lorem ipsum dolor sit amet consectetur. sit in sed sed retrum ultrice egestas. neque leo preesent odio diam. vel amet vitae pulvinar cursus enim sgittis enm. cum arcu vitae non seclerisque eget mi.',
             author: 'Mariana Dickey',
             sector: 'UI Designer',
-            image: '/src/assets/about/avatar.png'
+            image: '/about/avatar.png'
         },
         {
             description: 'lorem ipsum dolor sit amet consectetur. sit in sed sed retrum ultrice egestas. neque leo preesent odio diam. vel amet vitae pulvinar cursus enim sgittis enm. cum arcu vitae non seclerisque eget mi.',
             author: 'John',
             sector: 'Web Developer',
-            image: '/src/assets/about/avatar.png'
+            image: '/about/avatar.png'
         },
         {
             description: 'lorem ipsum dolor sit amet consectetur. sit in sed sed retrum ultrice egestas. neque leo preesent odio diam. vel amet vitae pulvinar cursus enim sgittis enm. cum arcu vitae non seclerisque eget mi.',
             author: 'Lifeonthecode',
             sector: 'Mern Stack Web developer',
-            image: '/src/assets/about/avatar.png'
+            image: '/about/avatar.png'
         }
     ]
 
@@ -71,7 +71,7 @@ const About = () => {
 
                 {/* right wrapper  */}
                 <div className="right_wrapper max-w-[693px] w-full min-h-[569px] h-full">
-                    <img src="/src/assets/about/about.png" className="w-full h-full object-cover" alt="about image" />
+                    <img src="/about/about.png" className="w-full h-full object-cover" alt="about image" />
                 </div>
 
             </div>

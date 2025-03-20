@@ -8,37 +8,37 @@ const Category = () => {
         {
             title: 'meat & fish',
             categoryItem: '15 items',
-            image: '/src/assets/popular/popular_2.png',
+            image: '/popular/popular_2.png',
             color: 'bg-[#fce0ca]'
         },
         {
             title: 'cooking',
             categoryItem: '252 items',
-            image: '/src/assets/popular/popular_3.png',
+            image: '/popular/popular_3.png',
             color: 'bg-[#d6f2f3]'
         },
         {
             title: 'beverages',
             categoryItem: '35 items',
-            image: '/src/assets/popular/popular_4.png',
+            image: '/popular/popular_4.png',
             color: 'bg-[#ffecb4]'
         },
         {
             title: 'home & cleaning',
             categoryItem: '80 items',
-            image: '/src/assets/popular/popular_5.png',
+            image: '/popular/popular_5.png',
             color: 'bg-[#ffedf1]'
         },
         {
             title: 'pest control',
             categoryItem: '80 items',
-            image: '/src/assets/popular/popular_6.png',
+            image: '/popular/popular_6.png',
             color: 'bg-[#e0d8c9]'
         },
         {
             title: 'stationery & office',
             categoryItem: '80 items',
-            image: '/src/assets/popular/popular_2.png',
+            image: '/popular/popular_2.png',
             color: 'bg-[#fee7d7]'
         },
     ]
@@ -60,7 +60,7 @@ const Category = () => {
                     </div>
 
                     <div className="w-full">
-                        <img className="w-full object-cover" src="/src/assets/popular/popular_1.png" alt="fruits & vegetables" />
+                        <img className="w-full object-cover" src="/popular/popular_1.png" alt="fruits & vegetables" />
                     </div>
                 </div>
 

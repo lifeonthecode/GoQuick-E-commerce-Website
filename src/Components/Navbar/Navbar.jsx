@@ -39,7 +39,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                         {/* logo wrapper  */}
                         <div className="logo_wrapper">
-                            <Link to='/'><img className="max-w-[156px] h-[34px] object-cover" src="/src/assets/icons/logo.png" alt="logo" /></Link>
+                            <Link to='/'><img className="max-w-[156px] h-[34px] object-cover" src="/icons/logo.png" alt="logo" /></Link>
                         </div>
 
                         {/* middle wrapper  */}

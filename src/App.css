@@ -17,7 +17,7 @@ body {
 
 /* header is sticky  */
 .header_component {
-    position: fixed;
+    position: relative;
     top: 0rem;
     left:0rem;
     width: 100%;
@@ -27,6 +27,7 @@ body {
 }
 
 .header_component.is-sticky {
+    position: fixed;
     animation: scroll .7s ease-in;
     border-bottom: 1px solid #05a845 ;
 }
@@ -43,7 +44,7 @@ body {
 
 /* banner section  */
 .banner_container {
-    background-image: url('/src/assets/banner/banner_bg.png');
+    background-image: url('/banner/banner_bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

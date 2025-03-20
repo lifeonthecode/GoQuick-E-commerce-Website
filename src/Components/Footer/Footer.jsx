@@ -15,9 +15,9 @@ const Footer = () => {
                         <h4 className="footer_title text-[1.1rem] text-[#1b1b1b] font-medium capitalize mb-4">Download our app</h4>
 
                         <div className="flex flex-col space-y-4 mb-4">
-                            <Link to={'#'} className="max-w-[185px] w-full h-[65px] bg-[#081c27] rounded-lg p-3 flex items-center justify-center"><img src="/src/assets/icons/apple.png" alt="app store" /></Link>
+                            <Link to={'#'} className="max-w-[185px] w-full h-[65px] bg-[#081c27] rounded-lg p-3 flex items-center justify-center"><img src="/icons/apple.png" alt="app store" /></Link>
 
-                            <Link to={'#'} className="max-w-[185px] w-full h-[65px] bg-[#081c27] rounded-lg p-3 flex items-center justify-center"><img src="/src/assets/icons/google.png" alt="play store" /></Link>
+                            <Link to={'#'} className="max-w-[185px] w-full h-[65px] bg-[#081c27] rounded-lg p-3 flex items-center justify-center"><img src="/icons/google.png" alt="play store" /></Link>
                         </div>
 
                         <div>
@@ -85,9 +85,9 @@ const Footer = () => {
                     </div>
 
                     <div className="flex items-center gap-4">
-                        <img className="w-8 h-8 object-cover" src="/src/assets/icons/visa.png" alt="visa" />
-                        <img className="w-8 h-8 object-cover" src="/src/assets/icons/master card.png" alt="master card" />
-                        <img className="w-8 h-8 object-cover" src="/src/assets/icons/american-express.png" alt="american express card" />
+                        <img className="w-8 h-8 object-cover" src="/icons/visa.png" alt="visa" />
+                        <img className="w-8 h-8 object-cover" src="/icons/master card.png" alt="master card" />
+                        <img className="w-8 h-8 object-cover" src="/icons/american-express.png" alt="american express card" />
                     </div>
                 </div>
 

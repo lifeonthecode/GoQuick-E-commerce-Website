@@ -7,17 +7,17 @@ const Delivery = () => {
         {
             title: 'Quality assurance',
             description: 'lorem ipsum dolor sit amet consectetur, id eget condimentum elementum',
-            image: '/src/assets/delivery/delivery_1.png',
+            image: '/delivery/delivery_1.png',
         },
         {
             title: 'Delivery from 2-4 hours',
             description: 'lorem ipsum dolor sit amet consectetur, id eget condimentum elementum',
-            image: '/src/assets/delivery/delivery_2.png',
+            image: '/delivery/delivery_2.png',
         },
         {
             title: 'Pay after receiving products',
             description: 'lorem ipsum dolor sit amet consectetur, id eget condimentum elementum',
-            image: '/src/assets/delivery/delivery_3.png',
+            image: '/delivery/delivery_3.png',
         },
     ]
 
